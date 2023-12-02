@@ -22,7 +22,7 @@
 
 ## 使用说明
 gitee版本请参考 [https://gitee.com/hahaha2100/aliyunpansignin](https://gitee.com/hahaha2100/aliyunpansignin)
-1. 在青龙面板`订阅管理`界面，点击右上角的`创建订阅`按钮，录入完成后，点击`确定`按钮。输入项说明如下：
+1. 订阅代码仓库。在青龙面板`订阅管理`界面，点击右上角的`创建订阅`按钮，录入完成后，点击`确定`按钮。输入项说明如下：
     - 名称：自定义填写，如填入`阿里云盘自动签到`
     - 类型：选择公开仓库
     - 链接：填入 https://github.com/hahaha2100/aliyunpansignin.git
@@ -36,7 +36,7 @@ gitee版本请参考 [https://gitee.com/hahaha2100/aliyunpansignin](https://gite
 
     录入完成后，会生成一条记录，拉到记录的最后面，点击`运行`按钮并查看青龙面板`脚本管理`界面，如果新生成了一个`hahaha2100_aliyunpansignin_main`文件夹，就说明成功了。
 
-2. 在青龙面板`环境变量`界面，点击右上角的`创建订阅`按钮，依次创建`aliyunpantoken`和`barkkey`两个环境变量。<br/>
+2. 设置环境变量。在青龙面板`环境变量`界面，点击右上角的`创建订阅`按钮，依次创建`aliyunpantoken`和`barkkey`两个环境变量。<br/>
     1. 创建aliyunpantoken环境变量
         - 名称：aliyunpantoken
         - 自动拆分：选择否
@@ -64,7 +64,7 @@ gitee版本请参考 [https://gitee.com/hahaha2100/aliyunpansignin](https://gite
             
             创建完成后，就可以在青龙面板`环境变量`界面，看到`CLIENT_ID`和`CLIENT_SECRET`这两个环境变量
 
-3. 在青龙面板`定时任务`界面，点击右上角的`创建任务`按钮，录入完成后，点击`确定`按钮。输入项说明如下:
+3. 设置定时任务。在青龙面板`定时任务`界面，点击右上角的`创建任务`按钮，录入完成后，点击`确定`按钮。输入项说明如下:
     - 名称：自定义填写，如填入`阿里云盘自动签到`
     - 命令/脚本：填入`hahaha2100_aliyunpansignin_main/aliyunpansignin.py`
     - 定时规则：自定义填写，如填入`0 9 * * *`（代表每天上午9点整自动执行）
