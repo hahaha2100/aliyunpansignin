@@ -1,7 +1,7 @@
 '''
 Date: 2023-12-01 12:19:01
-Author: WT-W-PC else001@sina.com
-LastEditors: WT-W-PC else001@sina.com
+Author: WT-W-PC
+LastEditors: WT-W-PC
 LastEditTime: 2023-12-01 13:57:44
 Description: 
 对http请求的各类方法进行封装,对系统、网络、客户端和服务器的错误进行捕捉，增强网络请求的健壮性。

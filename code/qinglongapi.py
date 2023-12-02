@@ -1,7 +1,7 @@
 '''
 Date: 2023-12-01 12:19:01
-Author: WT-W-PC else001@sina.com
-LastEditors: WT-W-PC else001@sina.com
+Author: WT-W-PC
+LastEditors: WT-W-PC
 LastEditTime: 2023-12-01 19:04:20
 Description: 
 对青龙面板的API进行封装,获取青龙面板的环境变量

@@ -1,7 +1,7 @@
 '''
 Date: 2023-12-01 12:19:01
-Author: WT-W-PC else001@sina.com
-LastEditors: WT-W-PC else001@sina.com
+Author: WT-W-PC
+LastEditors: WT-W-PC
 LastEditTime: 2023-12-01 16:49:20
 Description: 
 支持bark app消息推送
